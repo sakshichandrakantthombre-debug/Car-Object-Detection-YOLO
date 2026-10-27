@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: sakshis-workspace-ykugz
+  project: car-object-detectionn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sakshis-workspace-ykugz/car-object-detectionn/dataset/1
